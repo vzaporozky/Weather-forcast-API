@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <span class="header-img"></span>
+            <h1>
+                Display weather using API
+            </h1>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <form action="" class="main__main-form" method="get">
+                <p>day value:</p>
+
+                <select name="" id="" class="main-form__days">
+                    <option value="4">4</option>
+                    <option value="7">7</option>
+                    <option value="14">14</option>
+                </select>
+
+                <select id="" class="main-form__text">
+                    <option value="Kiev,UA">Kiev</option>
+                    <option value="Moscow,RU">Moscow</option>
+                    <option value="London,UK">London</option>
+                    <option value="Tokyo,JP">Tokyo</option>
+                    <option value="New York,NY">New York</option>
+                </select>
+
+                <input type="button" value="Submit" class="main-form__submit">
+            </form>
+            
+            <div class="city-name">
+                <h3></h3>
+            </div>
+            <div class="wrapper">
+                <div class="main__content"></div>
+            </div>
+        </div>
+        
+    </main>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+.container {
+    width: 920px;
+    margin: 0 auto;
+}
+
+.header .container {
+    width: 920px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+}
+
+.header-img {
+    width: 60px;
+    height: 60px;
+    background-image: url(../assets/images/weather.png);
+}
+
+h1 {
+    text-align: center;
+}
+
+.main__main-form {
+    display: flex;
+    justify-content: center;
+}
+
+.main__main-form p {
+    padding: 0;
+    margin: 0;
+}
+
+.main__main-form * + * {
+    margin-left: 10px;
+}
+
+.main-form__text {
+    width: 300px;
+    height: 20px;
+}
+
+select {
+    height: 20px;
+}
+
+.main-form__submit {
+    /* padding: 5px; */
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__content {
+    width: 810px;
+    margin: 0;
+    display: flex;
+    align-items: flex-start;
+
+    flex-wrap: wrap;
+}
+
+.content-block {
+    width: 160px;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content__temp-min,
+.content__temp-max {
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    text-align: center;
+}
+
+span {
+    display: block;
+}
+
